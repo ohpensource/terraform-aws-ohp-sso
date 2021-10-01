@@ -1,3 +1,9 @@
+# :confetti_ball: 0.1.1 (2021-10-01T09:55:11.671Z)
+- - -
+## :bug: Fixes
+* cleaned main readme and changelog
+- - -
+- - -
 # :confetti_ball: 0.1.0 (2021-10-01T09:45:14.641Z)
 - - -
 ## :hammer: Features
