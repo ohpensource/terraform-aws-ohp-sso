@@ -13,16 +13,6 @@ variable "tags" {
 #   description = "SSO permissions to assign to account"
 # }
 
-variable "sso_identity_store_id" {
-  type        = string
-  description = "(optional) describe your variable"
-}
-
-variable "sso_instance_arn" {
-  type        = string
-  description = "(optional) describe your variable"
-}
-
 variable "iam_user_access_to_billing" {
   type        = string
   description = "(Optional) If set to ALLOW, the new account enables IAM users to access account billing information if they have the required permissions. If set to DENY, then only the root user of the new account can access account billing information"

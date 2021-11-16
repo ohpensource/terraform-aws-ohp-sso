@@ -14,8 +14,5 @@ module "sso_permissions" {
 
   aad_group_name        = each.key
   sso_perm_set_name     = each.value
-  sso_identity_store_id = var.sso_identity_store_id
-  sso_instance_arn      = var.sso_instance_arn
   account_id            = aws_organizations_account.main.id
 }
-
