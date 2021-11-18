@@ -12,7 +12,7 @@ module "sso_permissions" {
   source   = "../sso"
   for_each = var.account_cfg[0].sso_perms
 
-  aad_group_name        = each.key
-  sso_perm_set_name     = each.value
-  account_id            = aws_organizations_account.main.id
+  aad_group_name    = each.key
+  sso_perm_set_name = each.value
+  account_id        = aws_organizations_account.main.id
 }
