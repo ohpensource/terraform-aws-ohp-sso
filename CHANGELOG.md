@@ -1,3 +1,9 @@
+# :confetti_ball: 0.2.0 (2021-11-21T20:39:24.041Z)
+- - -
+## :hammer: Features
+* LANZ-1390 add notify workflow
+- - -
+- - -
 # :confetti_ball: 0.1.2 (2021-10-04T19:34:26.199Z)
 - - -
 ## :bug: Fixes
