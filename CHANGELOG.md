@@ -1,3 +1,9 @@
+# :confetti_ball: 0.2.2 (2021-12-03T10:02:40.446Z)
+- - -
+## :bug: Fixes
+* fixed semver version
+- - -
+- - -
 # :confetti_ball: 0.2.0 (2021-11-21T20:39:24.041Z)
 - - -
 ## :hammer: Features
