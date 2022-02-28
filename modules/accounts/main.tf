@@ -4,7 +4,7 @@ resource "aws_organizations_account" "main" {
   iam_user_access_to_billing = var.iam_user_access_to_billing
   parent_id                  = var.account_cfg[0].parent_ou_id
   role_name                  = local.tfm_account_auto_cfg_role
-  tags                       = var.tags
+  tags                       = var.account_cfg[0].tags
 }
 
 
