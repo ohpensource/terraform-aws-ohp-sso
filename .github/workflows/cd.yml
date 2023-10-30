@@ -10,7 +10,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Terraform Install
-        uses: hashicorp/setup-terraform@v1
+        uses: hashicorp/setup-terraform@v3
       - name: semver & changelog
         run: |
           date > generated.txt
